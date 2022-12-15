@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=El+Messiri:wght@400;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans';
+}
+
+body {
+  background-image: url(13_nuits_transfigurees.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 450px;
+  height: 420px;
+  margin-left: 250px;
+  margin-top: 220px;
+  border-radius: 10px;
+  position: relative;
+}
+
+h1 {
+  color: white;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 15px;
+  margin-left: 25px;
+}
+
+.account{
+  display: inline;
+  margin-left: 50px;
+  margin-right: 5px;
+  color: white;
+  font-size: 14px;
+}
+
+.sign-in {
+  font-size: 14px;
+  text-decoration: none;
+  color: #25DAC5;
+  transition: 0.3s ease-in;
+}
+
+.sign-in:hover {
+  font-size: 1.1em;
+  transform: scale(1.1);
+}
+
+
+
+.email {
+  margin-top: 15px;
+  opacity: 0.2;
+  border: 1.5px solid white;
+}
+
+.email::-webkit-input-placeholder {
+  color: rgb(0, 0, 0); /*Change the placeholder color*/
+  opacity: 0.9; /*Change the opacity between 0 and 1*/
+}
+
+.email:focus {
+  outline: none;
+}
+
+.password {
+  opacity: 0.2;
+}
+
+.password::-webkit-input-placeholder {
+  color: rgb(0, 0, 0); /*Change the placeholder color*/
+  opacity: 0.9; /*Change the opacity between 0 and 1*/
+}
+
+.password:focus {
+  outline: none;
+}
+
+.email, .password {
+  display: block;
+  width: 80%;
+  margin-bottom: 20px;
+  margin-left: 35px;
+  padding: 10px;
+  border: 2px solid #EBEAED;
+  border-radius: 100px;
+}
+
+.box{
+  accent-color: #25DAC5;
+  border-radius: 6px;
+  margin-top: 15px;
+  margin-left: 35px;
+}
+
+.label {
+  color: white;
+  font-size: small;
+  vertical-align: text-top;
+  margin-left: 5px;
+}
+
+.forgot {
+  display: inline;
+  font-size: small;
+  margin-left: 150px;
+  opacity: 0.7;
+}
+
+.forgot a {
+  text-decoration: none;
+  color: red;
+  transition: 0.3s ease-in;
+}
+
+.forgot a:hover {
+  transform: scale(1.1);
+  font-size: 1.1em;
+}
+
+.button {
+  width: 30%;
+  margin-left: 35px;
+  padding: 10px;
+  border-radius: 100px;
+  border: 2px solid rgba(255, 255, 255, 0.1);;
+  margin-top: 20px;
+  transition: 0.3s ease-in;
+  background-color: #25DAC5;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  transition: 0.3s ease-in;
+}
+
+a:hover {
+  transform: scale(1.1);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.text {
+  position: absolute;
+  width: 330px;
+  color: #FFFFFF;
+  font-size: 15px;
+  margin-left: 490px;
+  margin-top: -215px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 40px;
+}
